@@ -4,16 +4,27 @@
 
 ###1:  Move 0's
 **	- Problem Description -
+
 **	Given an array nums, write a function to move all 0's to the end of it while maintaining 
+
 **	the relative order of the non-zero elements. For example, given nums = [0, 1, 0, 3, 12], 
+
 **	after calling your function, nums should be [1, 3, 12, 0, 0].
+
 **	
+
 **	Note:
+
 **	You must do this in-place without making a copy of the array.
+
 **	Minimize the total number of operations.
+
 **
+
 **	@param {number[]} nums
+
 **	@return {void}
+
 **
 
 - A solution: -
@@ -34,16 +45,25 @@ var moveZeroes = function(nums) {
 
 ###2:  Number of 1-Bits
 **	- Problem Description -
+
 **	Write a function that takes an unsigned integer and returns the number 
+
 **	of ’1' bits it has (also known as the Hamming weight).
+
 **	For example, the 32-bit integer ’11' has binary representation 
+
 **	00000000000000000000000000001011, so the function should return 3.
+
 **
+
 **	@param {number} n - a positive integer
+
 **	@return {number}
+
 **
 
 - a solution - 
+
 ```
 var hammingWeight = function(n) {
 	// creating variable and converting n to a string of binary
