@@ -76,6 +76,37 @@ Given two whole numbers, A and B, write a function that returns the number of pe
 
 Given A = 2 and B = 17, the perfect squares between A and B are 4, 9, and 16 so the function should return `3`
 
+####a solution1
+
+```
+const solution = (A, B) => {
+    let wholeSquares = 0;
+    for (let i = A; i <= B; i++) {
+        if (Math.sqrt(i) % 1 === 0) {
+        	console.log(Math.sqrt(i));
+            wholeSquares++;
+        }
+    }
+    return wholeSquares;
+}
+```
+
+####a solution2
+
+```
+const solution2 = (A, B) => {
+	if (A > B) {
+		let temp = A;
+		A = B;
+		B = temp;
+	}
+	
+	let pos1 = Math.ceil(Math.sqrt(A)) || 0;
+	let pos2 = Math.floor(Math.sqrt(B)) || -1;
+	return pos2 - pos1 + 1;
+}
+```
+
 
 ###4 Pascal's Triangle Matrix
 
