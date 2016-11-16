@@ -12,11 +12,11 @@ Note:
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 
-**
+
 @param {number[]} nums
 @return {void}
 
-**
+
 
 
 ####A solution:
@@ -42,11 +42,11 @@ of ’1' bits it has (also known as the Hamming weight).
 For example, the 32-bit integer ’11' has binary representation 
 00000000000000000000000000001011, so the function should return 3.
 
-**
+
 @param {number} n - a positive integer
 @return {number}
 
-**
+
 
 ####A Solution
 
